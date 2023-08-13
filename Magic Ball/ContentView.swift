@@ -27,7 +27,7 @@ struct ContentView: View {
                     Button(action: langSwitch) {
                         Image(systemName: "network")
                             .font(.title3)
-                        Text(langIsShowing ? "English lang" : "Русский" )
+                        Text(langIsShowing ? "English" : "Русский" )
                             .font(.title3)
                         Spacer()
                     }
